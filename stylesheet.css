@@ -1,0 +1,27 @@
+/*This is the style sheet for my website
+This container line is simply for debugging purposes
+*/
+
+/*#container{
+	
+	width:1520px;
+	height:500px;
+	position: relative;
+}*/
+
+#Discord{
+	
+	left:0;
+	bottom:0;
+	position: absolute;
+}
+
+#discordName{
+	
+	font-family: "Courier New", Courier, monospace;
+	font-weight: bold;
+	font-size: 20px;
+	left:100;
+	bottom:40;
+	position:absolute;
+}
