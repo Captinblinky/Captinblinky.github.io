@@ -16,6 +16,24 @@ This container line is simply for debugging purposes
 	position: absolute;
 }
 
+#suggestions{
+	font-family: "Courier New", Courier, monospace;
+	font-weight: normal;
+	font-size: 14px;
+	right: 20;
+	bottom: 100;
+	position: absolute;
+}
+
+#websiteOwner{
+	font-family: "Courier New", Courier, monospace;
+	font-weight: normal;
+	font-size: 12px;
+	right: 455;
+	bottom: 0;
+	position: absolute;
+}
+
 #discordName{
 	
 	font-family: "Courier New", Courier, monospace;
@@ -27,19 +45,19 @@ This container line is simply for debugging purposes
 }
 
 #mechanics-of-materials{
-	bottom: 150;
+	bottom: 250;
 	right:900;
 	position:absolute;
 }
 
 #thermodynamics{
-	bottom:150;
+	bottom:250;
 	right:700;
 	position:absolute;
 }
 
 #materialsScience{
-	bottom:150;
+	bottom:250;
 	right:500;
 	position:absolute;
 }
