@@ -44,20 +44,32 @@ This container line is simply for debugging purposes
 	position:absolute;
 }
 
-#mechanics-of-materials{
-	bottom: 250;
-	right:900;
-	position:absolute;
+.nav {
+	padding-left:500px;
 }
 
-#thermodynamics{
-	bottom:250;
-	right:700;
-	position:absolute;
+.nav li{
+	display: inline;
 }
 
-#materialsScience{
-	bottom:250;
-	right:500;
-	position:absolute;
+.nav li a{
+	font-family: "Courier New", Courier, monospace;
+	font-size: 40px;
+	text-decoration: none;
+	float: left;
+	padding: 10px;
+	background-color: #333333;
+	color: #ffffff;
+	border-bottom: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+}
+
+.nav li a:hover{
+	background-color: #9B1C26;
+	padding-bottom: 12px;
+	border-bottom: 2px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+	margin: -1px;
 }
