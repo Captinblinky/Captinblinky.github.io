@@ -1,0 +1,33 @@
+#sidenote{
+	font-family: "Courier New", Courier, monospace;
+	font-weight: normal;
+	font-size: 12px;
+	right: 455;
+	bottom: 0;
+	position: absolute;
+}
+
+#Q1MoMAss3P1{
+	top:300;
+	left:20;
+	position:absolute;
+}
+
+#Q1MoMAss3P2{
+	top: 300;
+	left: 220;
+	position:absolute;
+}
+
+#Q2MoMAss3{
+	top: 300;
+	left: 420;
+	position:absolute;
+}
+
+#Q3MoMAss3{
+	top: 300;
+	left: 620;
+	position:absolute;
+}
+
