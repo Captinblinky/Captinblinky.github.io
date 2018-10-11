@@ -10,11 +10,11 @@ This container line is simply for debugging purposes
 }*/
 
 #Discord{
-	
 	right:190;
 	bottom:0;
-	position: absolute;
+	position:absolute;
 }
+
 
 #suggestions{
 	font-family: "Courier New", Courier, monospace;
@@ -91,13 +91,13 @@ This container line is simply for debugging purposes
 
 @media screen and (max-width:980px) {
        .nav{
-		padding-left:250px;
+		padding-left:185px;
 	}
 }
 
 @media screen and (max-width:767px) {
         .nav{
-		padding-left:100px;
+		padding-left:135px;
 	}
 	.nav li a {
 		font-size: 20px;
@@ -106,7 +106,7 @@ This container line is simply for debugging purposes
 
 @media screen and (max-width:599px) {
         .nav{
-		padding-left:80px;
+		padding-left:120px;
 	}
 	.nav li a{
 		font-size: 10px;
@@ -115,7 +115,7 @@ This container line is simply for debugging purposes
 
 @media screen and (max-width:479px) {
       .nav{
-		padding-left:50px;
+		padding-left:100px;
 	}
 }
 
