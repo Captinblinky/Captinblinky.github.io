@@ -73,3 +73,54 @@ This container line is simply for debugging purposes
 	border-bottom-style: solid;
 	margin: -1px;
 }
+
+@media screen and (max-width:1166px) {
+	.nav{ 
+		padding-left:300px;
+	}
+	.nav li a{
+		font-size: 30px;
+	}
+}
+
+@media screen and (max-width:1024px) {
+	.nav{
+		padding-left:280px;
+	}
+}
+
+@media screen and (max-width:980px) {
+       .nav{
+		padding-left:250px;
+	}
+}
+
+@media screen and (max-width:767px) {
+        .nav{
+		padding-left:100px;
+	}
+	.nav li a {
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width:599px) {
+        .nav{
+		padding-left:80px;
+	}
+	.nav li a{
+		font-size: 10px;
+	}
+}
+
+@media screen and (max-width:479px) {
+      .nav{
+		padding-left:50px;
+	}
+}
+
+@media screen and (max-width:374px) {
+    .nav{
+		padding-left:40px;
+	}
+}
