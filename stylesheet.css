@@ -117,10 +117,61 @@ This container line is simply for debugging purposes
       .nav{
 		padding-left:100px;
 	}
+<<<<<<< HEAD
+	#websiteOwner{
+		right:0;
+		font-size: 10px;
+		text-align:center;
+	}
+	#Discord{
+		display: none;
+	}
+	#discordName{
+		display: none;
+	}
+	#suggestions{
+		display:none;
+	}
+	#updates{
+		text-align:center;
+		top: 170;
+		left: 120;
+	}
+	#Dt1{
+		text-align:center;
+		top: 200;
+		left: 50;
+	}
+	#Dp1{
+		text-align:center;
+		top: 220;
+		left: 0;
+	}
+	#Dt2{
+		text-align:center;
+		top: 260;
+		left: 100;
+	}
+	#Dp2{
+		text-align:center;
+		top: 280;
+		left: 10;
+	}
+	#Dt3{
+		text-align:center;
+		top: 320;
+		left: 140;
+	}
+	#Dp3{
+		text-align:center;
+		top: 340;
+		left: 55;
+=======
 }
 
 @media screen and (max-width:374px) {
     .nav{
 		padding-left:40px;
+>>>>>>> parent of 9c954df... stability fixes
 	}
 }
