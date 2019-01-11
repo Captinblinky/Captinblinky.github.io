@@ -27,3 +27,44 @@
 	left: 820;
 	position:absolute;
 }
+
+#fluids{
+	top: 200;
+	left: 1020;
+	position: absolute;
+}
+
+#dynamics{
+	top: 200;
+	left: 1220;
+	position: absolute;
+}
+
+@media screen and (max-width:479px) {
+	#mechanics-of-materials{
+		top: 70;
+	}
+	#thermodynamics{
+		top: 70;
+	}
+	#materialsScience{
+		top: 350;
+		left: 20;
+	}
+	#calculus{
+		top: 350;
+		left: 220;
+	}
+	#physics{
+		top: 640;
+		left: 20;
+	}
+	#fluids{
+		top: 640;
+		left: 220;
+	}
+	#dynamics{
+		top: 920;
+		left: 20;
+	}
+}
