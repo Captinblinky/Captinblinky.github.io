@@ -9,7 +9,14 @@ function runTimer() {
     if (!(+hour >= 0 && +hour <= 9999) || (!(+min >= 0 && +min <= 59)) || (!(+sec >= 0 && +sec <= 59))) {
         timeRemaining.innerHTML = "Invalid time!";
     } else {
-        timeRemaining.innerHTML = "";
-        console.log("works!");
+        setInterval(function() {
+            if (sec > 0) {
+                sec--;
+            } else if (sec < 1 && min > 0) {
+                sec = 60; 
+                min--;
+            } 
+        }, 1000);
+        timeRemaining.innerHTML = hour + ":" + min + ":" + sec;
     }
 }
