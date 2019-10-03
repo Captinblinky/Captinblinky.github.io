@@ -9,7 +9,7 @@
             <form> 
                 <span class="text"> HH &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :MM &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :SS  </span> <br> <br>
                 <input id="hour" type="number" class="time" maxlength="4" min="0" max="9999"> <span class="text"> : </span> <input id="min" type="number" class="time" min="0" max="59" maxlength="2"> <span class="text"> : </span> <input id="sec" type="number" class="time" min="0" max="59" maxlength="2">
-                <button type="button" onclick="runTimer()"> Start</button>
+                <button id="start" type="button" onclick="runTimer()"> Start</button>
             </form>
         </div>
         <div class="text" id="timeRemaining"> </div>
