@@ -28,6 +28,21 @@ body {
     color: white;
 }
 
+.goBack {
+    background-color: gold;
+    float: left;
+    width: 75px;
+    height: 30px;
+    color: black;
+    border-radius: 20px;
+    font-size: 15px;
+    border: 1px solid white;
+}
+
+.goBack:hover {
+    color:red;
+}
+
 .footer { 
     text-align: center;
     color: white;
