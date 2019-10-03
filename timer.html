@@ -3,15 +3,20 @@
     <script src="timer.js"></script>
     <body>
         <div class="header">
-            Welcome to the timer! Set the time for the timer below!
+            Welcome to the timer!
         </div>
-        <div> 
-            <form> 
-                <span class="text"> HH &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :MM &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :SS  </span> <br> <br>
-                <input id="hour" type="number" class="time" maxlength="4" min="0" max="9999"> <span class="text"> : </span> <input id="min" type="number" class="time" min="0" max="59" maxlength="2"> <span class="text"> : </span> <input id="sec" type="number" class="time" min="0" max="59" maxlength="2">
-                <button type="button" onclick="runTimer()"> Start</button>
-            </form>
+        <div class="subheader">
+            Set the time for the timer below!
+        </div> <br>
+        <div class="content"> 
+            <span class="text"> HH:MM:SS  </span> <br> <br>
+            <input id="hour" type="number" value="00" class="time" maxlength="4" min="0" max="9999"> <span class="text"> : </span> 
+            <input id="min" value="00" type="number" class="time" min="0" max="59" maxlength="2"> <span class="text"> : </span> 
+            <input id="sec" value="00" type="number" class="time" min="0" max="59" maxlength="2">
+            <button id="start" type="button" onclick="runTimer()"> Start</button>
+            <button id="reset" type="button" onclick="resetTimer()"> Reset Timer </button> <br> <br>
+            <div class="text" id="timeRemaining"> </div>
         </div>
-        <div class="text" id="timeRemaining"> </div>
+    <div class="footer"> Powered by <img src="./Images/Discord-Logo-Color.png" style="width:50px;height:50px;"> Ghost Rare#2184 </div>
     </body>
 </html>
