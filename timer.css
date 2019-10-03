@@ -8,6 +8,17 @@ body {
     text-align: center;
 }
 
+.content {
+    color:white;
+    text-align: center;
+}
+
+.subheader { 
+    color:white;
+    font-size: 2rem;
+    text-align: center;
+}
+
 .time {
     height: 20px;
     width: 50px;
@@ -15,4 +26,12 @@ body {
 
 .text {
     color: white;
+}
+
+.footer { 
+    text-align: center;
+    color: white;
+    position: fixed;
+    top: 20rem;
+    left: 52rem;
 }
